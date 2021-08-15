@@ -35,7 +35,7 @@ const Form = ({getReturns, getNetValue}) => {
 
            <input type="number" name="currentPrice" placeholder="Enter Current Price" required value={currentPrice} onChange={handleCurrentPrice}/>
 
-           <input type="number" name="purchaseQuantity" placeholder="Enter Purchase Quantity" required onChange={handleQuantity}/>
+           <input type="number" name="purchaseQuantity" placeholder="Enter Purchase Quantity" value={quantity} required onChange={handleQuantity}/>
 
            <button>Submit</button>
        </form>
