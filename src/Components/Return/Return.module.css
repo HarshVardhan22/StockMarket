@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    min-width: 30vw;
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 10px;
+    background: #25282c;
+    box-shadow: 17px 17px 34px #1b1d20, -17px -17px 34px #2f3338;
+  }
+
+  .profit{
+      color: green;
+  }
+  .loss{
+      color: red;
+  }
+  .icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  @media only screen and (max-width:738px ){
+    .container{
+        text-align: center;
+      min-width: 70vw;
+    }
+  }
