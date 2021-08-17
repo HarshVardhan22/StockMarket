@@ -31,9 +31,9 @@ const Form = ({getReturns, getNetValue}) => {
        <form onSubmit={handleSubmit} className = {styles.container}>        
          
            
-           <input type="number" name="purchasePrice" placeholder="Enter Purchase Price" required value = {purchasePrice} onChange={handlePurchasePrice} />
+           <input type="number" name="purchasePrice" min="0" placeholder="Enter Purchase Price" required value = {purchasePrice} onChange={handlePurchasePrice} />
 
-           <input type="number" name="currentPrice" placeholder="Enter Current Price" required value={currentPrice} onChange={handleCurrentPrice}/>
+           <input type="number" name="currentPrice" min="0" placeholder="Enter Current Price" required value={currentPrice} onChange={handleCurrentPrice}/>
 
            <input type="number" name="purchaseQuantity" placeholder="Enter Purchase Quantity" value={quantity} required onChange={handleQuantity}/>
 
