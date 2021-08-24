@@ -1,5 +1,7 @@
 # checkout this app  : https://stockshealth.netlify.app/
 
+An application that can calculate your profit or loss by taking input of the cost price and current price of that stock 
+# I have used React.js to implement this project
 
 # Getting Started with Create React App
 
