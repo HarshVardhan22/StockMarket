@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <Fade left cascaded>
-     <div className={styles.container}>
+     <div className={styles.container} style={{background:`${returns<-50?"red":"#25282c"}`}}>
       <div className={styles.leftContainer}>
         <Form getNetValue={getNetValue} getReturns={getReturns} />
       </div>
